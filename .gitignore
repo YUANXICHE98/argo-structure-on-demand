@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+.env
+.env.*
+
+# local datasets and generated artifacts
+data/camels_us/
+data/traffic_datasets/real/
+results/**
+!results/.gitkeep
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pkl
+*.feather
+*.nc
